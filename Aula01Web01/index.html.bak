@@ -1,0 +1,19 @@
+<!doctype html><!--comentário-->
+<hhtml lang="pt-br">
+    <head>
+	   <meta charset="utf-8"/>
+	   <title>Título da guia do Navegador</title>
+	</head>
+	<body>
+	    <h1>Meu Website</h1>
+		<h1>Título</h1>
+		<h2>Sub Título</h2>
+		<h3>Texto Destacado</h3>
+		<h4>Texto menor</h4>
+		<h5>Menor</h5>
+		<h6>Menorzinho</h6>
+	
+	</body>
+	
+
+</html>
