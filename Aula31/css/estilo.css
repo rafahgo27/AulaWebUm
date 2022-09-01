@@ -46,7 +46,7 @@ main {
     color: #000;
 }
 
-.aside-direito{
+.aside-direito {
     width: 20%;
     height: 450px;
     float: right;
@@ -82,8 +82,34 @@ footer {
     padding: 2px 5px;
     margin-right: 8px;
 }
-
-.menu a:hover{
+/*estilizaçao do menu*/
+.menu a:hover {
     background: #D3D3D3;
     border: 1px solid #4f4f4f;
+}
+
+/*conteudo do main*/
+.titulo-main {
+    font-size: 36px;
+    font-weight: 400;
+    color: #363636;
+    padding: 5px 6px;
+}
+
+.texto-main {
+    font-weight: 300;
+    padding: 1%;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.imagem-um-main {
+    width: 45%;
+    float: left;
+}
+
+.imagem-dois-main {
+    width: 45%;
+    float: right;
 }
