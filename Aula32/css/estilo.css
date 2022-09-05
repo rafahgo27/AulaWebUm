@@ -1,0 +1,156 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #000;
+    font-size: 16px;
+    text-align: justify;
+    margin: 0px;
+}
+
+section {
+    width: 95%;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    height: 300px;
+    background-image: url('../imgs/londres-3000x3000.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background: #000080;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 22px;
+}
+
+aside {
+    width: 20%;
+    height: 450px;
+    float: left;
+    background: #191970;
+    color: #fff;
+}
+
+main {
+    width: 60%;
+    float: left;
+    background: #fff;
+    color: #000;
+    align-items: center;
+}
+
+.aside-direito {
+    width: 20%;
+    height: 450px;
+    float: right;
+    background: #191970;
+    color: #fff;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    clear: both;
+    background: #000080;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 22px;
+}
+
+.titulo-topo {
+    font-size: 52px;
+    font-weight: bold;
+    padding-top: 2%;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.menu a {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #BEBEBE;
+    text-decoration: none;
+    padding: 2px 5px;
+    margin-right: 8px;
+}
+/*estilizaçao do menu*/
+.menu a:hover {
+    background: #D3D3D3;
+    border: 1px solid #4f4f4f;
+}
+
+/*conteudo do main*/
+.titulo-main {
+    font-size: 36px;
+    font-weight: 400;
+    color: #363636;
+    padding: 5px 6px;
+}
+
+.texto-main {
+    font-weight: 300;
+    padding: 1%;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.imagem-um-main {
+    width: 45%;
+    float: left;
+}
+
+.imagem-dois-main {
+    width: 45%;
+    float: right;
+}
+
+.tabela {
+    width: 90%;
+    margin: auto;
+    border-radius: 4px;
+}
+
+/*seletor de tag*/
+thead, th{
+    background-color: #363636;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+tbody, td{
+    background-color: #fff;
+    color: #363636;
+    border-bottom: #808080 1px solid;
+
+}
+
+.left-content {
+    width: 48%;
+    padding: 5px 10px;
+    float: left;
+    border: #ccc 1px solid;
+    border-radius: 4px;
+    text-align: justify;
+}
+
+.right-content {
+    width: 45%;
+    padding: 5px 10px;
+    float: right;
+    border: #ccc 1px solid;
+    border-radius: 4px;
+    text-align: justify;
+}
+
+ 
