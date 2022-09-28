@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Formulários</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    </head>
+    <body>
+        <section class="container-fluid" style="background: #e6e6fa;">
+        <h1>Formulários</h1>
+        <hr/>
+        <a href="galeria.html">Galeria</a>
+        <a href="https://google.com.br" target="_blank">GOOGLE</a>
+        <div>
+        <form action="enviar.php" method="post">
+            <div class="row">
+                <div class="row">
+                    <div class="col-md-2 border"><legend>Nome:</legend></div>
+                    <div class="col-md-6 border">
+                        <input type="text" placeholder="Nome" class="form-control">
+                    </div>
+                </div>
+            <div class="row">    
+                <div class="row">
+                    <div class="col-md-2 border"><legend>E-mail:</legend></div>   
+                    <div class="col-md-6 border">
+                        <input type="email" placeholder="Email" class="form-control" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="row">
+                    <div class="col-md-2 border"><legend>Senha:</legend></div>
+                    <div class="col-md-6 border">
+                        <input type="password" placeholder="Senha" class="form-control" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="row">
+                   <div class="col-md-2 border"><legend>Número:</legend></div>
+                   <div class="col-md-6 border">
+                        <input type="number" placeholder="Número" class="form-control" required>
+                 </div>
+             </div>
+             <button type="button" class="btn btn-sucess">Enviar</button>
+             <button type="button" class="btn btn-danger">Limpar</button>
+        </form>
+        </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/boostrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    </body>
+</html>
